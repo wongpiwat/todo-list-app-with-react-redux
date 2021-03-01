@@ -27,7 +27,7 @@ class AddTodo extends React.Component {
   }
 }
 
-export default connect(
-  null,
-  { addTodo }
-)(AddTodo);
+// This.props.addTodo(this.state.input) is adding input to addTodo's content. check it out on actions.js file.
+// When click add todolist, then it run into todoList.js file.
+
+export default connect(null, { addTodo })(AddTodo);

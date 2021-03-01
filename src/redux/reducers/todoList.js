@@ -1,6 +1,8 @@
 import { ADD_TODO } from "../actionTypes";
 
 const defaultState = [];
+
+// Add todolist operation.
 const todoList = (state = defaultState, action) => {
   switch (action.type) {
     case ADD_TODO: {
